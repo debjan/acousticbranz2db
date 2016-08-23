@@ -1,6 +1,6 @@
-### http://acousticbrainz.org migrations
+## http://acousticbrainz.org migrations
 
-1. to Postgres
+#### 1. to Postgres
 
 ```shell
 $ python3 ab2pg.py -h
@@ -26,7 +26,7 @@ optional arguments:
   --debug              print debug messages
 ```
 
-2. to MongoDB
+#### 2. to MongoDB
 
 ```shell
 $ python3 ab2mongo.py -h
